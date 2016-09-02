@@ -1,4 +1,6 @@
 <aside id="sidebar">
+<?php awesome_products(3); ?>
+
 <?php if(!dynamic_sidebar('Blog Sidebar') ){ ?>
 
 <?php get_search_form(); //include searchform.php OR WP's default search form ?>
